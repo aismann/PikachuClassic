@@ -1,8 +1,8 @@
 # PikachuClassic
 PikachuClassic is a simple board game. I built this game base on the idea of the Pikachu game which is a famous game in the world. I also created an algorithm, this algorithm will allow users can get hints when users haven't way to continue playing. This game has been using the Cocos2d-x framework
 
-<img width="320" alt="Screenshot 2021-08-23 at 12 33 41 AM" src="https://user-images.githubusercontent.com/15699560/130362956-4d633713-0894-4912-a250-bcda48c86760.png">
-<img width="320" alt="Screenshot 2021-08-23 at 12 33 51 AM" src="https://user-images.githubusercontent.com/15699560/130362961-28376abb-ebde-443e-aa0a-2602505c34c1.png">
-<img width="320" alt="Screenshot 2021-08-23 at 12 33 59 AM" src="https://user-images.githubusercontent.com/15699560/130362962-d2f4d4c1-50cf-4638-adad-9bfa2279566c.png">
-<img width="320" alt="Screenshot 2021-08-23 at 12 34 13 AM" src="https://user-images.githubusercontent.com/15699560/130362965-4cbd953c-66a6-4a54-830d-08ba04ead9ca.png">
-<img width="320" alt="Screenshot 2021-08-23 at 12 34 23 AM" src="https://user-images.githubusercontent.com/15699560/130362967-7e59e9e5-3ae8-4925-b5fb-e08a80ac33b3.png">
+<img width="320" alt="screen1" src="https://user-images.githubusercontent.com/15699560/130363737-3d6041c3-d232-48ce-8d3a-305508c82241.png">
+<img width="320" alt="screen2" src="https://user-images.githubusercontent.com/15699560/130363745-1b70225c-0d6b-4f8e-85a8-769967c426e6.png">
+<img width="320" alt="screen3" src="https://user-images.githubusercontent.com/15699560/130363747-2859a0ac-be14-4011-9a6e-a57f34a6972a.png">
+<img width="320" alt="screen4" src="https://user-images.githubusercontent.com/15699560/130363749-789d67e6-e0eb-4b2e-8848-0ff018abba7a.png">
+<img width="320" alt="screen5" src="https://user-images.githubusercontent.com/15699560/130363750-2002b687-0423-4d3f-8a26-18703889ef14.png">
