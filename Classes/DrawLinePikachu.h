@@ -2,7 +2,7 @@
 //  DrawLinePikachu.h
 //  PikuchuConnect
 //
-//  Created by NguyenHoang on 10/23/16.
+//  Created by HarryNguyen on 10/23/16.
 //
 //
 
@@ -14,20 +14,15 @@
 #include "cocos2d.h"
 USING_NS_CC;
 
-
-class DrawLinePikachu : public Ref
-{
+class DrawLinePikachu : public Ref {
 public:
-    Scene* mainscene;
-
+  Scene* mainScene;
+  
 public:
-    DrawLinePikachu();
-    virtual ~DrawLinePikachu();
-    virtual void onEnter();
-    virtual void onExit();
-    void drawLineTwoPoint(const Point& p1, const Point& p2, float timedelay);
-    void update(float dt);
-    void initWithScene(Node* node);
+  DrawLinePikachu();
+  virtual ~DrawLinePikachu();
+  void drawLineTwoPoint(const Point& p1, const Point& p2, float timeDelay);
+  void initWithScene(Node* node);
 };
 
 #endif /* DrawLinePikachu_h */

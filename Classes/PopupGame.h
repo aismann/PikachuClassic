@@ -14,30 +14,28 @@
 #include "ui/CocosGUI.h"
 USING_NS_CC;
 
-class DelegateEventPopup
-{
+class DelegateEventPopup {
 public:
-    virtual void sendTagActionPopup(int tag) = 0;
+  virtual void sendTagActionPopup(int tag) = 0;
 };
 
-class PopupGame: public Node
-{
+class PopupGame: public Node {
 private:
-    Size sizePopup;
-    int typePopup;
-    Label* labelPopup;
-    DelegateEventPopup* delegate;
+  Size sizePopup;
+  int typePopup;
+  Label* labelPopup;
+  DelegateEventPopup* delegate;
 public:
-    PopupGame();
-    ~PopupGame();
-    void createLayoutWithZorder();
-    void createPopupWithbuttonWithFileName(const char* fileButton, const Vec2& pos, int tag);
-    void createUibackGroundWithFileName(const char* fileName);
-    void setTypePopup(int type);
-    void btnClickPopup(Ref* psender);
-    void setdelegate(DelegateEventPopup* mdelegate);
-    void setLabelPopup(Label* label);
-    Size sizeOfPopup();
+  PopupGame();
+  ~PopupGame();
+  void createLayoutWithZOrder();
+  void createPopupWithFileName(const char* fileButton, const Vec2& pos, int tag);
+  void createWithFileName(const char* fileName);
+  void setTypePopup(int type);
+  void handleClickPopup(Ref* psender);
+  void setDelegate(DelegateEventPopup* mDelegate);
+  void setLabelPopup(Label* label);
+  Size sizeOfPopup();
 };
 
 #endif /* PopupGame_h */

@@ -7,12 +7,12 @@ using namespace cocos2d;
 
 class AdmodAndroid{
 public:
-    static void showBanner();
-    static void hideBanner();
-    static void showFullAdvertiment();
-    static void unlockAchiment(int levelUnlock);
-    static void showAchiment();
-    static bool getStatusShowFull();
+  static void showBanner();
+  static void hideBanner();
+  static void showFullAds();
+  static void unlockAchievement(int levelUnlock);
+  static void showAchievement();
+  static bool getStatusShowFull();
 };
 
 

@@ -2,14 +2,14 @@
 //  GoogleReward.cpp
 //  PikachuOnetClassic
 //
-//  Created by HoangNC on 7/15/17.
+//  Created by Harry Nguyen on 7/15/17.
 //
 //
 
 #include "GoogleReward.h"
 #include "AdmodAndroid.h"
-void GoogleReward::unlockachievementGoogle(int levelUnlock){
+void GoogleReward::unlockAchievement(int levelUnlock){
 #if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
-    AdmodAndroid::unlockAchiment(levelUnlock);
+  AdmodAndroid::unlockAchievement(levelUnlock);
 #endif
 }

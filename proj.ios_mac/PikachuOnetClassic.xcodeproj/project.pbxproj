@@ -3,32 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */; };
 		1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294D0D631D0D56D500F7F5D4 /* CoreText.framework */; };
 		3EACC98F19EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
-		3EACC99019EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
-		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
-		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
 		503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FF17EB989F00D1A890 /* RootViewController.mm */; };
-		503AE10517EB98FF00D1A890 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503AE10317EB98FF00D1A890 /* main.cpp */; };
-		503AE11B17EB9C5A00D1A890 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503AE11A17EB9C5A00D1A890 /* IOKit.framework */; };
-		5087E76317EB910900C73F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		5087E76717EB910900C73F5D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
-		5087E76817EB910900C73F5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
-		5087E76917EB910900C73F5D /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
-		5087E76A17EB910900C73F5D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
-		5087E76B17EB910900C73F5D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
 		5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77217EB970100C73F5D /* Default-568h@2x.png */; };
 		5087E77E17EB970100C73F5D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77317EB970100C73F5D /* Default.png */; };
 		5087E77F17EB970100C73F5D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77417EB970100C73F5D /* Default@2x.png */; };
@@ -39,8 +25,6 @@
 		5087E78417EB970100C73F5D /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77917EB970100C73F5D /* Icon-57.png */; };
 		5087E78517EB970100C73F5D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77A17EB970100C73F5D /* Icon-72.png */; };
 		5087E78617EB970100C73F5D /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77B17EB970100C73F5D /* Icon-76.png */; };
-		5087E78917EB974C00C73F5D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087E78817EB974C00C73F5D /* AppKit.framework */; };
-		5087E78B17EB975400C73F5D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087E78A17EB975400C73F5D /* OpenGL.framework */; };
 		50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629217ECD46A001EB2F8 /* Icon-40.png */; };
 		50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629317ECD46A001EB2F8 /* Icon-58.png */; };
 		50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629417ECD46A001EB2F8 /* Icon-80.png */; };
@@ -50,9 +34,14 @@
 		521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6219F0C34300D177D7 /* Default-667h@2x.png */; };
 		521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6319F0C34300D177D7 /* Default-736h@3x.png */; };
 		521A8EA919F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
-		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
-		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
-		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		867BDC0328BCDD42006C4950 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867BDC0228BCDD42006C4950 /* UIKit.framework */; };
+		867BDC0528BCDD4D006C4950 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867BDC0428BCDD4D006C4950 /* OpenGLES.framework */; };
+		867BDC0728BCDE52006C4950 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867BDC0628BCDE51006C4950 /* SystemConfiguration.framework */; };
+		867BDC0928BCE016006C4950 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867BDC0828BCE016006C4950 /* CoreText.framework */; };
+		867BDC0B28BCE026006C4950 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867BDC0A28BCE026006C4950 /* CoreMotion.framework */; };
+		867BDC0D28BCE04A006C4950 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 867BDC0C28BCE04A006C4950 /* libz.tbd */; };
+		867BDC0F28BCE06F006C4950 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 867BDC0E28BCE06F006C4950 /* libiconv.tbd */; };
+		867BDC1128BCFA30006C4950 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867BDC1028BCFA30006C4950 /* Images.xcassets */; };
 		BA2C6C0E1F1A539E00735315 /* GoogleReward.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA2C6C0C1F1A539E00735315 /* GoogleReward.cpp */; };
 		BA76C03C1F1D17CF00B084DE /* layoutButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BA76C03B1F1D17CF00B084DE /* layoutButton.png */; };
 		BA76C0401F1D1FFD00B084DE /* moneyItem.png in Resources */ = {isa = PBXBuildFile; fileRef = BA76C03F1F1D1FFD00B084DE /* moneyItem.png */; };
@@ -100,9 +89,9 @@
 		BAB2184F1F192ABD0067DF4E /* PSucces.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAB218251F192ABD0067DF4E /* PSucces.mp3 */; };
 		BAB218501F192ABD0067DF4E /* soundClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAB218261F192ABD0067DF4E /* soundClick.mp3 */; };
 		BAB218721F192ACA0067DF4E /* AdmodAndroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAB218511F192ACA0067DF4E /* AdmodAndroid.cpp */; };
-		BAB218731F192ACA0067DF4E /* AIRandomSuggest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAB218531F192ACA0067DF4E /* AIRandomSuggest.cpp */; };
-		BAB218741F192ACA0067DF4E /* AlgorithmPikachu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAB218551F192ACA0067DF4E /* AlgorithmPikachu.cpp */; };
-		BAB218751F192ACA0067DF4E /* AlgorithmRandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAB218571F192ACA0067DF4E /* AlgorithmRandom.cpp */; };
+		BAB218731F192ACA0067DF4E /* SuggestBot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAB218531F192ACA0067DF4E /* SuggestBot.cpp */; };
+		BAB218741F192ACA0067DF4E /* CheckPairBot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAB218551F192ACA0067DF4E /* CheckPairBot.cpp */; };
+		BAB218751F192ACA0067DF4E /* RandomBot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAB218571F192ACA0067DF4E /* RandomBot.cpp */; };
 		BAB218761F192ACA0067DF4E /* AndroidScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAB218591F192ACA0067DF4E /* AndroidScene.cpp */; };
 		BAB218771F192ACA0067DF4E /* BaseOject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAB2185B1F192ACA0067DF4E /* BaseOject.cpp */; };
 		BAB218781F192ACA0067DF4E /* ButtonCustom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAB2185D1F192ACA0067DF4E /* ButtonCustom.cpp */; };
@@ -115,15 +104,10 @@
 		BAB2187F1F192ACA0067DF4E /* PikachuObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAB2186C1F192ACA0067DF4E /* PikachuObject.cpp */; };
 		BAB218801F192ACA0067DF4E /* PopupGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAB2186E1F192ACA0067DF4E /* PopupGame.cpp */; };
 		BAB218811F192ACA0067DF4E /* ProgressBarCustom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAB218701F192ACA0067DF4E /* ProgressBarCustom.cpp */; };
-		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
-		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
-		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
-		ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7B1B68A1F400C3958E /* libiconv.dylib */; };
-		ED545A7E1B68A1FA00C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7D1B68A1FA00C3958E /* libiconv.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,13 +124,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = A07A4D641783777C0073F6A7;
 			remoteInfo = "cocos2dx iOS";
-		};
-		1AC6FB15180E9959004C840B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 1551A33E158F2AB200E66CFE;
-			remoteInfo = "cocos2dx Mac";
 		};
 		1AC6FB24180E99E1004C840B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -168,7 +145,7 @@
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* PikachuOnetClassic-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PikachuOnetClassic-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* PikachuOnetClassic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PikachuOnetClassic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		294D0D631D0D56D500F7F5D4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
@@ -187,7 +164,6 @@
 		503AE10417EB98FF00D1A890 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = mac/Prefix.pch; sourceTree = "<group>"; };
 		503AE11117EB99EE00D1A890 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		503AE11A17EB9C5A00D1A890 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		5087E76F17EB910900C73F5D /* PikachuOnetClassic-desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PikachuOnetClassic-desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5087E77217EB970100C73F5D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5087E77317EB970100C73F5D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5087E77417EB970100C73F5D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -212,6 +188,14 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		867BDC0228BCDD42006C4950 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		867BDC0428BCDD4D006C4950 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		867BDC0628BCDE51006C4950 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		867BDC0828BCE016006C4950 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		867BDC0A28BCE026006C4950 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		867BDC0C28BCE04A006C4950 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		867BDC0E28BCE06F006C4950 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/lib/libiconv.tbd; sourceTree = DEVELOPER_DIR; };
+		867BDC1028BCFA30006C4950 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PikachuOnetClassic/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		BA2C6C0C1F1A539E00735315 /* GoogleReward.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GoogleReward.cpp; sourceTree = "<group>"; };
 		BA2C6C0D1F1A539E00735315 /* GoogleReward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleReward.h; sourceTree = "<group>"; };
 		BA76C03B1F1D17CF00B084DE /* layoutButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = layoutButton.png; sourceTree = "<group>"; };
@@ -261,12 +245,12 @@
 		BAB218261F192ABD0067DF4E /* soundClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soundClick.mp3; sourceTree = "<group>"; };
 		BAB218511F192ACA0067DF4E /* AdmodAndroid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AdmodAndroid.cpp; sourceTree = "<group>"; };
 		BAB218521F192ACA0067DF4E /* AdmodAndroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdmodAndroid.h; sourceTree = "<group>"; };
-		BAB218531F192ACA0067DF4E /* AIRandomSuggest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AIRandomSuggest.cpp; sourceTree = "<group>"; };
-		BAB218541F192ACA0067DF4E /* AIRandomSuggest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRandomSuggest.h; sourceTree = "<group>"; };
-		BAB218551F192ACA0067DF4E /* AlgorithmPikachu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AlgorithmPikachu.cpp; sourceTree = "<group>"; };
-		BAB218561F192ACA0067DF4E /* AlgorithmPikachu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmPikachu.h; sourceTree = "<group>"; };
-		BAB218571F192ACA0067DF4E /* AlgorithmRandom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AlgorithmRandom.cpp; sourceTree = "<group>"; };
-		BAB218581F192ACA0067DF4E /* AlgorithmRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmRandom.h; sourceTree = "<group>"; };
+		BAB218531F192ACA0067DF4E /* SuggestBot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuggestBot.cpp; sourceTree = "<group>"; };
+		BAB218541F192ACA0067DF4E /* SuggestBot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestBot.h; sourceTree = "<group>"; };
+		BAB218551F192ACA0067DF4E /* CheckPairBot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CheckPairBot.cpp; sourceTree = "<group>"; };
+		BAB218561F192ACA0067DF4E /* CheckPairBot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckPairBot.h; sourceTree = "<group>"; };
+		BAB218571F192ACA0067DF4E /* RandomBot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RandomBot.cpp; sourceTree = "<group>"; };
+		BAB218581F192ACA0067DF4E /* RandomBot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomBot.h; sourceTree = "<group>"; };
 		BAB218591F192ACA0067DF4E /* AndroidScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AndroidScene.cpp; sourceTree = "<group>"; };
 		BAB2185A1F192ACA0067DF4E /* AndroidScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidScene.h; sourceTree = "<group>"; };
 		BAB2185B1F192ACA0067DF4E /* BaseOject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseOject.cpp; sourceTree = "<group>"; };
@@ -308,39 +292,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */,
-				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
-				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
+				867BDC0F28BCE06F006C4950 /* libiconv.tbd in Frameworks */,
+				867BDC0D28BCE04A006C4950 /* libz.tbd in Frameworks */,
+				867BDC0B28BCE026006C4950 /* CoreMotion.framework in Frameworks */,
+				867BDC0928BCE016006C4950 /* CoreText.framework in Frameworks */,
+				867BDC0728BCDE52006C4950 /* SystemConfiguration.framework in Frameworks */,
+				867BDC0528BCDD4D006C4950 /* OpenGLES.framework in Frameworks */,
+				867BDC0328BCDD42006C4950 /* UIKit.framework in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */,
-				D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
-				BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */,
-				BF1712471292920000B8313A /* libz.dylib in Frameworks */,
 				BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */,
 				D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */,
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
 				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5087E75C17EB910900C73F5D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED545A7E1B68A1FA00C3958E /* libiconv.dylib in Frameworks */,
-				1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */,
-				5087E76717EB910900C73F5D /* libz.dylib in Frameworks */,
-				8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */,
-				503AE11B17EB9C5A00D1A890 /* IOKit.framework in Frameworks */,
-				5087E78B17EB975400C73F5D /* OpenGL.framework in Frameworks */,
-				5087E78917EB974C00C73F5D /* AppKit.framework in Frameworks */,
-				5087E76317EB910900C73F5D /* Foundation.framework in Frameworks */,
-				5087E76817EB910900C73F5D /* QuartzCore.framework in Frameworks */,
-				5087E76917EB910900C73F5D /* OpenAL.framework in Frameworks */,
-				5087E76A17EB910900C73F5D /* AVFoundation.framework in Frameworks */,
-				5087E76B17EB910900C73F5D /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,8 +330,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* PikachuOnetClassic-mobile.app */,
-				5087E76F17EB910900C73F5D /* PikachuOnetClassic-desktop.app */,
+				1D6058910D05DD3D006BFB54 /* PikachuOnetClassic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -398,6 +362,13 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				867BDC0E28BCE06F006C4950 /* libiconv.tbd */,
+				867BDC0C28BCE04A006C4950 /* libz.tbd */,
+				867BDC0A28BCE026006C4950 /* CoreMotion.framework */,
+				867BDC0828BCE016006C4950 /* CoreText.framework */,
+				867BDC0628BCDE51006C4950 /* SystemConfiguration.framework */,
+				867BDC0428BCDD4D006C4950 /* OpenGLES.framework */,
+				867BDC0228BCDD42006C4950 /* UIKit.framework */,
 				294D0D631D0D56D500F7F5D4 /* CoreText.framework */,
 				ED545A7D1B68A1FA00C3958E /* libiconv.dylib */,
 				ED545A7B1B68A1F400C3958E /* libiconv.dylib */,
@@ -425,6 +396,7 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				867BDC1028BCFA30006C4950 /* Images.xcassets */,
 				BAB217F81F192ABD0067DF4E /* icon */,
 				BAB217FA1F192ABD0067DF4E /* imagegameScene */,
 				BAB2180C1F192ABD0067DF4E /* imagehome */,
@@ -443,13 +415,13 @@
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				BAB218651F192ACA0067DF4E /* GameDefine.h */,
+				BAB218641F192ACA0067DF4E /* GameBoard.h */,
+				BAB218631F192ACA0067DF4E /* GameBoard.cpp */,
 				BA2C6C081F1A27CF00735315 /* UICustom */,
 				BA2C6C071F1A27BC00735315 /* Object */,
 				BA2C6C061F1A27A000735315 /* Scene */,
-				BA2C6C051F1A279400735315 /* AI */,
+				BA2C6C051F1A279400735315 /* Bots */,
 				BA2C6C041F1A278200735315 /* Admod */,
-				BAB218631F192ACA0067DF4E /* GameBoard.cpp */,
-				BAB218641F192ACA0067DF4E /* GameBoard.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -513,28 +485,28 @@
 			name = Admod;
 			sourceTree = "<group>";
 		};
-		BA2C6C051F1A279400735315 /* AI */ = {
+		BA2C6C051F1A279400735315 /* Bots */ = {
 			isa = PBXGroup;
 			children = (
-				BAB218531F192ACA0067DF4E /* AIRandomSuggest.cpp */,
-				BAB218541F192ACA0067DF4E /* AIRandomSuggest.h */,
-				BAB218551F192ACA0067DF4E /* AlgorithmPikachu.cpp */,
-				BAB218561F192ACA0067DF4E /* AlgorithmPikachu.h */,
-				BAB218571F192ACA0067DF4E /* AlgorithmRandom.cpp */,
-				BAB218581F192ACA0067DF4E /* AlgorithmRandom.h */,
+				BAB218541F192ACA0067DF4E /* SuggestBot.h */,
+				BAB218531F192ACA0067DF4E /* SuggestBot.cpp */,
+				BAB218561F192ACA0067DF4E /* CheckPairBot.h */,
+				BAB218551F192ACA0067DF4E /* CheckPairBot.cpp */,
+				BAB218581F192ACA0067DF4E /* RandomBot.h */,
+				BAB218571F192ACA0067DF4E /* RandomBot.cpp */,
 			);
-			name = AI;
+			name = Bots;
 			sourceTree = "<group>";
 		};
 		BA2C6C061F1A27A000735315 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				BAB218591F192ACA0067DF4E /* AndroidScene.cpp */,
 				BAB2185A1F192ACA0067DF4E /* AndroidScene.h */,
-				BAB218661F192ACA0067DF4E /* GameScene.cpp */,
+				BAB218591F192ACA0067DF4E /* AndroidScene.cpp */,
 				BAB218671F192ACA0067DF4E /* GameScene.h */,
-				BAB218681F192ACA0067DF4E /* HomeScene.cpp */,
+				BAB218661F192ACA0067DF4E /* GameScene.cpp */,
 				BAB218691F192ACA0067DF4E /* HomeScene.h */,
+				BAB218681F192ACA0067DF4E /* HomeScene.cpp */,
 			);
 			name = Scene;
 			sourceTree = "<group>";
@@ -542,12 +514,12 @@
 		BA2C6C071F1A27BC00735315 /* Object */ = {
 			isa = PBXGroup;
 			children = (
-				BAB2186C1F192ACA0067DF4E /* PikachuObject.cpp */,
 				BAB2186D1F192ACA0067DF4E /* PikachuObject.h */,
-				BAB2186A1F192ACA0067DF4E /* MyLine.cpp */,
+				BAB2186C1F192ACA0067DF4E /* PikachuObject.cpp */,
 				BAB2186B1F192ACA0067DF4E /* MyLine.h */,
-				BAB2185B1F192ACA0067DF4E /* BaseOject.cpp */,
+				BAB2186A1F192ACA0067DF4E /* MyLine.cpp */,
 				BAB2185C1F192ACA0067DF4E /* BaseOject.h */,
+				BAB2185B1F192ACA0067DF4E /* BaseOject.cpp */,
 			);
 			name = Object;
 			sourceTree = "<group>";
@@ -555,16 +527,16 @@
 		BA2C6C081F1A27CF00735315 /* UICustom */ = {
 			isa = PBXGroup;
 			children = (
-				BAB218701F192ACA0067DF4E /* ProgressBarCustom.cpp */,
 				BAB218711F192ACA0067DF4E /* ProgressBarCustom.h */,
-				BAB2186E1F192ACA0067DF4E /* PopupGame.cpp */,
+				BAB218701F192ACA0067DF4E /* ProgressBarCustom.cpp */,
 				BAB2186F1F192ACA0067DF4E /* PopupGame.h */,
-				BAB2185D1F192ACA0067DF4E /* ButtonCustom.cpp */,
+				BAB2186E1F192ACA0067DF4E /* PopupGame.cpp */,
 				BAB2185E1F192ACA0067DF4E /* ButtonCustom.h */,
-				BAB2185F1F192ACA0067DF4E /* DataUser.cpp */,
+				BAB2185D1F192ACA0067DF4E /* ButtonCustom.cpp */,
 				BAB218601F192ACA0067DF4E /* DataUser.h */,
-				BAB218611F192ACA0067DF4E /* DrawLinePikachu.cpp */,
+				BAB2185F1F192ACA0067DF4E /* DataUser.cpp */,
 				BAB218621F192ACA0067DF4E /* DrawLinePikachu.h */,
+				BAB218611F192ACA0067DF4E /* DrawLinePikachu.cpp */,
 			);
 			name = UICustom;
 			sourceTree = "<group>";
@@ -652,9 +624,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* PikachuOnetClassic-mobile */ = {
+		1D6058900D05DD3D006BFB54 /* PikachuOnetClassic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PikachuOnetClassic-mobile" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PikachuOnetClassic" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -665,27 +637,9 @@
 			dependencies = (
 				1AC6FB25180E99E1004C840B /* PBXTargetDependency */,
 			);
-			name = "PikachuOnetClassic-mobile";
+			name = PikachuOnetClassic;
 			productName = iphone;
-			productReference = 1D6058910D05DD3D006BFB54 /* PikachuOnetClassic-mobile.app */;
-			productType = "com.apple.product-type.application";
-		};
-		5087E73D17EB910900C73F5D /* PikachuOnetClassic-desktop */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5087E76C17EB910900C73F5D /* Build configuration list for PBXNativeTarget "PikachuOnetClassic-desktop" */;
-			buildPhases = (
-				5087E74817EB910900C73F5D /* Resources */,
-				5087E75617EB910900C73F5D /* Sources */,
-				5087E75C17EB910900C73F5D /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1AC6FB16180E9959004C840B /* PBXTargetDependency */,
-			);
-			name = "PikachuOnetClassic-desktop";
-			productName = iphone;
-			productReference = 5087E76F17EB910900C73F5D /* PikachuOnetClassic-desktop.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* PikachuOnetClassic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -697,7 +651,7 @@
 				LastUpgradeCheck = 0500;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PikachuOnetClassic" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -716,8 +670,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* PikachuOnetClassic-mobile */,
-				5087E73D17EB910900C73F5D /* PikachuOnetClassic-desktop */,
+				1D6058900D05DD3D006BFB54 /* PikachuOnetClassic */,
 			);
 		};
 /* End PBXProject section */
@@ -766,6 +719,7 @@
 				BAB218491F192ABD0067DF4E /* popup-pause.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				BAB2182F1F192ABD0067DF4E /* bgGameScene.png in Resources */,
+				867BDC1128BCFA30006C4950 /* Images.xcassets in Resources */,
 				BAB2182A1F192ABD0067DF4E /* bgAnimal2.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				BAB2183F1F192ABD0067DF4E /* help.png in Resources */,
@@ -819,16 +773,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5087E74817EB910900C73F5D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
-				3EACC99019EE6D4300EB3C5E /* res in Resources */,
-				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -847,36 +791,22 @@
 				BAB2187D1F192ACA0067DF4E /* HomeScene.cpp in Sources */,
 				BAB218801F192ACA0067DF4E /* PopupGame.cpp in Sources */,
 				BAB2187A1F192ACA0067DF4E /* DrawLinePikachu.cpp in Sources */,
-				BAB218741F192ACA0067DF4E /* AlgorithmPikachu.cpp in Sources */,
+				BAB218741F192ACA0067DF4E /* CheckPairBot.cpp in Sources */,
 				BAB218781F192ACA0067DF4E /* ButtonCustom.cpp in Sources */,
 				BAB2187B1F192ACA0067DF4E /* GameBoard.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				BAB2187F1F192ACA0067DF4E /* PikachuObject.cpp in Sources */,
 				BAB2187C1F192ACA0067DF4E /* GameScene.cpp in Sources */,
-				BAB218751F192ACA0067DF4E /* AlgorithmRandom.cpp in Sources */,
-				BAB218731F192ACA0067DF4E /* AIRandomSuggest.cpp in Sources */,
+				BAB218751F192ACA0067DF4E /* RandomBot.cpp in Sources */,
+				BAB218731F192ACA0067DF4E /* SuggestBot.cpp in Sources */,
 				BAB218721F192ACA0067DF4E /* AdmodAndroid.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5087E75617EB910900C73F5D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
-				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1AC6FB16180E9959004C840B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "cocos2dx Mac";
-			targetProxy = 1AC6FB15180E9959004C840B /* PBXContainerItemProxy */;
-		};
 		1AC6FB25180E99E1004C840B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "cocos2dx iOS";
@@ -889,6 +819,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				ENABLE_BITCODE = NO;
@@ -904,17 +839,26 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "";
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
+					"$(_COCOS_LIB_IOS_BEGIN)",
+					"$(_COCOS_LIB_IOS_END)",
+					"$(inherited)",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
-				VALID_ARCHS = "arm64 armv7";
+				USER_HEADER_SEARCH_PATHS = (
+					"$(_COCOS_HEADER_IOS_BEGIN)",
+					"$(_COCOS_HEADER_IOS_END)",
+				);
+				VALID_ARCHS = "arm64 armv7 x86_64";
 			};
 			name = Debug;
 		};
@@ -922,6 +866,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				ENABLE_BITCODE = NO;
@@ -936,8 +885,10 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "";
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
@@ -945,69 +896,11 @@
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
-				VALID_ARCHS = "arm64 armv7";
-			};
-			name = Release;
-		};
-		5087E76D17EB910900C73F5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = mac/Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					USE_FILE32API,
-					"COCOS2D_DEBUG=1",
-					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+				USER_HEADER_SEARCH_PATHS = (
+					"$(_COCOS_HEADER_IOS_BEGIN)",
+					"$(_COCOS_HEADER_IOS_END)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../cocos2d/external/glfw3/include/mac",
-				);
-				INFOPLIST_FILE = mac/Info.plist;
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = (
-					"$(_COCOS_LIB_MAC_BEGIN)",
-					"$(_COCOS_LIB_MAC_END)",
-				);
-				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
-			};
-			name = Debug;
-		};
-		5087E76E17EB910900C73F5D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = mac/Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					USE_FILE32API,
-					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
-					NDEBUG,
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../cocos2d/external/glfw3/include/mac",
-				);
-				INFOPLIST_FILE = mac/Info.plist;
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = (
-					"$(_COCOS_LIB_MAC_BEGIN)",
-					"$(_COCOS_LIB_MAC_END)",
-				);
-				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
+				VALID_ARCHS = "arm64 armv7 x86_64";
 			};
 			name = Release;
 		};
@@ -1029,7 +922,7 @@
 					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
 					"$(SRCROOT)/../cocos2d/cocos/editor-support",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1053,7 +946,7 @@
 					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
 					"$(SRCROOT)/../cocos2d/cocos/editor-support",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1065,20 +958,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PikachuOnetClassic-mobile" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PikachuOnetClassic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		5087E76C17EB910900C73F5D /* Build configuration list for PBXNativeTarget "PikachuOnetClassic-desktop" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5087E76D17EB910900C73F5D /* Debug */,
-				5087E76E17EB910900C73F5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

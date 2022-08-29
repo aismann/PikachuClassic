@@ -2,7 +2,7 @@
 //  HomeScene.hpp
 //  PikachuConnect
 //
-//  Created by NguyenHoang on 8/18/16.
+//  Created by HarryNguyen on 8/18/16.
 //
 //
 
@@ -15,29 +15,28 @@
 #include "DataUser.h"
 USING_NS_CC;
 
-
 class HomeScene : public Layer {
 public:
-    Size winSize;
-    ui::Button* btnSoudOff;
-    ui::Button* btnSoundOn;
-    ui::Button* btnChart;
-    ui::Button* btnHelp ;
-    ui::Button* btnStart;
-    Layer*  chartLayer ;
-    Sprite* bgchart;
-    bool isHelp;
-    std::vector<DataUser*> arrayUser;
+  Size winSize;
+  ui::Button* soundOffButton;
+  ui::Button* soundOnButton;
+  ui::Button* chartButton;
+  ui::Button* helpButton ;
+  ui::Button* startButton;
+  Layer*  chartLayer ;
+  Sprite* chartBackgroundSprite;
+  bool isHelp;
+  std::vector<DataUser*> arrayUser;
 public:
-    static Scene* createHomeScene();
-    HomeScene();
-    virtual ~HomeScene();
-    void createUIHomeScene();
-    void btnClickButtonHomeScene(Ref* pSender);
-    void createHelpGame();
-    void createChartGame();
-    void onEnter();
-    void onExit();
+  static Scene* createHomeScene();
+  HomeScene();
+  virtual ~HomeScene();
+  void createUIHomeScene();
+  void handleClickButtonHomeScene(Ref* pSender);
+  void createHelpGame();
+  void createChartGame();
+  void onEnter();
+  void onExit();
   
 };
 
